@@ -119,6 +119,9 @@
 .phone-call{
     display: flex;
     align-items: center;
+    gap: 10px;
+
+
 }
 
 .apointment-container{
@@ -165,4 +168,17 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+.bg-primary-cell{
+    background-color: rgba(239, 172, 172, 0.8);
+    color: black;
+    
+    border-style: 2px solid black;
+    padding: 10px;
+}
+
+.number{
+    font-size: 25px;
+}
     
